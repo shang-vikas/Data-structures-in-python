@@ -12,11 +12,11 @@ def get_url(URL,args=None):
         resp = requests.get(URL)
     else:
         resp = requests.get(URL,params=args)
+    
     return resp.content
 
-def main():
+def  main():
     import argparse
-    # from tabulate import tabulate
     parser = argparse.ArgumentParser(description="Simply returns urls response")
     arguments = parser.add_argument_group("required params")
     arguments.add_argument('-u','--URL',dest='URL',type=str,required=True,help="URL to download")
