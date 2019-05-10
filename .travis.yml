@@ -20,7 +20,7 @@ install:
     - pipenv install --dev --skip-lock
 
 script:
-    pipenv run pytest --cov=reurl --cov-report=xml -v
+    pipenv run pytest -v
 
 after_success:
     pipenv run codecov
