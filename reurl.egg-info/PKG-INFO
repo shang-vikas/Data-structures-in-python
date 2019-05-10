@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: reurl
+Version: 0.0.1
+Summary: Just a test repo package. In the future, i will put something useful over here
+Home-page: https://github.com/shang-vikas/packaging-test-repo
+Author: Vikas Sangwan
+Author-email: 16vikas96@gmail.com
+License: MIT
+Download-URL: https://github.com/shang-vikas/packaging-test-repo/tarball/0.0.1
+Description: # packaging-test-repo
+        Learning the packaging, automatic testing using this repo
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
