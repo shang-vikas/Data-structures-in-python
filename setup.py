@@ -14,7 +14,7 @@ setup(
     description='Just a test repo package. In the future, i will put something useful over here',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    install_requires=['pandas>=0.23.0','numpy>=1.0.13','requests'],
+    install_requires=['pandas>=0.23.0','numpy>=1.0.13','requests>=2.20'],
     entry_points= {'console_scripts':
         ['reurl=download:main'],
         },
